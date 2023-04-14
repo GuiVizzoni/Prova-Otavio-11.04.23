@@ -16,6 +16,12 @@ header {
     justify-content: center;
     text-align: center;
     font-size: 18px;
+    background-image: url(https://cooknenjoy.com/wp-content/uploads/2021/09/BOLO-GELADO-PRESTI%CC%81GIO3-1-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
 
 nav {
@@ -29,20 +35,20 @@ nav {
 }
 
 nav li {
-    border-right: 2px solid;
+    border-right: 2px solid black;
     padding-right: 5%;
+    transition: all 1s ease-out
 }
 
 nav li:last-child {
     border-right: none;
 }
 
-.imagem-pr {
-    width: 100%;
-    height: 500px;
-    display: block;
-
+nav li:hover {
+        color: aliceblue;
+        cursor: pointer;
 }
+
 
 .conteudo {
     justify-content: center;
@@ -89,6 +95,7 @@ iframe {
 
 img {
     width: 150px;
+    height: 150px;
 }
 
 .tabela {
